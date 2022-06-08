@@ -3,3 +3,126 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* inizio stile header*/
+/* nav */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+li{
+    padding: 0px 20px;
+    font-size: 16px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+    padding: 28px 0px;
+}
+
+.blue-btn{
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    background-color: #2761fb;
+    border: none;
+}
+
+/*jumbo*/
+.jumbo{
+    background-color: #bbcfe6;
+    height: 680px;
+    font-weight: 200;
+}
+
+.jumbo-container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.jumbo h1{
+    font-size: 70px;
+}
+
+.text-image-jumbo{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+.jumbo-text>*, .jumbo-text button{
+    margin-bottom: 30px;
+}
+
+.jumbo-text p:last-of-type{
+    margin-bottom: 80px;
+}
+
+.jumbo-text{
+    width: 30%;
+}
+
+.jumbo-img{
+    width: 70%;
+}
+
+.jumbo-img img{
+    width: 100%;
+}
+
+
+/* inizio stile main*/
+main{
+    padding-top: 150px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* checked */
+
+.check{
+    display: flex;
+    padding: 60px 0px;
+}
+
+.check span:first-of-type{
+    margin-right: 40px;
+}
+
+.circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.circle.checked{
+    border: 5px solid #3761fb;
+}
+
+.circle.not-checked{
+    border: 2px solid gray;
+}
+
+/* sezione plan*/
+
+.plan ul{
+    display: block;
+}
