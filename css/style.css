@@ -11,10 +11,16 @@ body{
 /* inizio stile header*/
 /* nav */
 nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 80px;
+    width: 100%;
+    background-color: white;
 }
 
 ul{
@@ -41,13 +47,20 @@ nav a{
     font-size: 20px;
     background-color: #2761fb;
     border: none;
+    cursor: pointer;
+}
+
+.blue-btn a{
+    color: white;
+    text-decoration: none;
 }
 
 /*jumbo*/
 .jumbo{
     background-color: #bbcfe6;
-    height: 680px;
+    height: 760px;
     font-weight: 200;
+    padding-top: 80px
 }
 
 .jumbo-container{
@@ -76,11 +89,11 @@ nav a{
     margin-bottom: 80px;
 }
 
-.jumbo-text{
+.jumbo-text .container-width-30{
     width: 30%;
 }
 
-.jumbo-img{
+.jumbo-img .container-width-70{
     width: 70%;
 }
 
@@ -131,14 +144,13 @@ main{
 }
 
 .plan{
-    height: 880px;
     width: 30%;
     border: 1px solid gray;
     font-size: 14px;
 }
 
 .plan>*{
-    padding-left: 25px;
+    padding-left: 30px;
 }
 
 .plan div:first-child{
@@ -151,9 +163,12 @@ main{
     padding: 0px 5px;
 }
 
-.plan h4{
-    padding: 30px 25px;
+h4{
     font-size: 25px;
+}
+
+.card-plan-container .plan h4{
+    padding: 30px 25px;
 }
 
 .plan .price{
@@ -175,9 +190,10 @@ main{
     padding: 10px 10px;
 }
 
-.plan .blue-btn{
+.card-plan-container .blue-btn{
     width: 80%;
     font-size: 16px;
+    margin: 30px 30px 0px 30px;
 }
 
 .plan .buy-now{
@@ -202,14 +218,19 @@ main{
 .last-plan{
     margin-top: 30px;
     width: 100%;
-    height: 300px;
 }
 
 .last-plan-container{
-    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
 }
 
-.last-plan .blue-btn{
-    float: right;
-    width: 250px;
+.plan.last-plan .last-plan-left{
+    border: none;
+    text-align: left;
+}
+
+.plan.last-plan .last-plan-left p{
+    margin-top: 30px;
 }
