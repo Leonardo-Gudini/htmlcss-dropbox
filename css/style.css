@@ -41,7 +41,7 @@ nav a{
     padding: 28px 0px;
 }
 
-.blue-btn{
+.blue-btn, .btn{
     padding: 10px 20px;
     color: white;
     font-size: 20px;
@@ -89,15 +89,15 @@ nav a{
     margin-bottom: 80px;
 }
 
-.jumbo-text .container-width-30{
+.jumbo-text, .container-width-30{
     width: 30%;
 }
 
-.jumbo-img .container-width-70{
+.jumbo-img, .container-width-70{
     width: 70%;
 }
 
-.jumbo-img img{
+img{
     width: 100%;
 }
 
@@ -233,4 +233,28 @@ h4{
 
 .plan.last-plan .last-plan-left p{
     margin-top: 30px;
+}
+
+
+/*section partner*/
+.partner{
+    margin-top: 100px;
+}
+
+.container-width-30{
+    padding: 40px 0px 0px 20px;
+    font-size: 14px;
+}
+
+.container-width-30>*:not(button){
+    padding-bottom: 30px;
+}
+.btn{
+    background-color: white;
+    border: 1px solid black;
+}
+
+.btn a{
+    text-decoration: none;
+    color: black;
 }
