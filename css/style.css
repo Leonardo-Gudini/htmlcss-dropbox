@@ -27,6 +27,9 @@ nav{
 ul{
     display: flex;
     list-style-type: none;
+}
+
+nav ul{
     align-items: center;
 }
 
@@ -64,7 +67,7 @@ nav a{
     padding-top: 80px
 }
 
-.jumbo-container{
+.jumbo-container, #footer-container, .language{
     width: 1200px;
     margin: 0 auto;
     padding-top: 50px;
@@ -111,6 +114,7 @@ img{
 
 main{
     padding-top: 120px;
+    margin-bottom: 120px;
 }
 
 /* checked */
@@ -142,7 +146,7 @@ main{
 h2{
     font-size: 40px;
 }
-.card-plan-container{
+.card-plan-container, #footer-container{
     display: flex;
     justify-content: space-between;
 }
@@ -376,7 +380,7 @@ h4{
     padding-top: 50px;
 }
 
-#faq ul{
+#faq ul, .container-items ul{
     display: flex;
     flex-direction: column;
 }
@@ -411,3 +415,30 @@ h4{
     margin-right: 20px;
 }
 
+/* inizio footer*/
+footer{
+    background-color: black;
+    height: 100%;
+    padding: 40px 0px;
+}
+
+.container-items{
+    text-align: left;
+    width: calc(100% 7 5);
+}
+
+.container-items h4, .language{
+    margin-bottom: 30px;
+    color: white;
+}
+
+.container-items:first-of-type ul{
+    height: 300px;
+    border-bottom: 1px solid white;
+}
+
+.container-items li, .container-items a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 0px;
+}
