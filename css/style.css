@@ -104,7 +104,7 @@ img{
 
 
 /* inizio stile main*/
-#plan-container, #partner, #business{
+#plan-container, #partner, #business, .free-try-container{
     width: 1000px;
     margin: 0 auto;
 }
@@ -139,7 +139,7 @@ main{
 }
 
 /* sezione plan*/
-#plan-container h2{
+h2{
     font-size: 40px;
 }
 .card-plan-container{
@@ -358,3 +358,14 @@ h4{
 
 /* section free try*/
 
+#free-try{
+    background-color: #bbcfe6;
+    height: 300px;
+}
+
+.free-try-container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
