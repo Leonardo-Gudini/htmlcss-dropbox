@@ -38,6 +38,14 @@ nav li{
     font-size: 16px;
 }
 
+nav ul a:hover{
+    border-bottom: 2px solid #2761FB;
+}
+
+.no-border a:hover{
+    border: none
+}
+
 nav a{
     text-decoration: none;
     color: black;
