@@ -105,6 +105,10 @@ nav a{
     width: 30%;
 }
 
+.jumbo-text i{
+    color: black;
+}
+
 .jumbo-img, .container-width-70{
     width: 70%;
 }
@@ -132,7 +136,8 @@ main{
     padding: 60px 0px;
 }
 
-.check span:first-of-type{
+.check span:first-of-type, .check span:last-of-type{
+    margin-left: 10px;
     margin-right: 40px;
 }
 
@@ -307,7 +312,7 @@ h4{
 }
 
 .square-text{
-    padding: 35px;
+    padding: 50px 40px 0px 40px;
     flex-direction: column;
 }
 
@@ -453,4 +458,9 @@ footer{
     text-decoration: none;
     color: white;
     padding: 5px 0px;
+}
+
+.language span:first-of-type, .language{
+    padding-right: 10px;
+    color: gray;
 }
