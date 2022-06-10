@@ -104,7 +104,7 @@ img{
 
 
 /* inizio stile main*/
-#plan-container, #partner, #business, .free-try-container{
+#plan-container, #partner, #business, .free-try-container, #faq{
     width: 1000px;
     margin: 0 auto;
 }
@@ -175,8 +175,7 @@ h4{
     padding: 30px 25px;
 }
 
-.plan .price{
-    padding-bottom: 8px;
+.price{
     font-weight: bold;
 }
 
@@ -369,3 +368,46 @@ h4{
     justify-content: space-between;
     align-items: center;
 }
+
+/* section faq*/
+
+#faq, #faq>*{
+    margin-top: 30px;
+    padding-top: 50px;
+}
+
+#faq ul{
+    display: flex;
+    flex-direction: column;
+}
+
+#faq li{
+    width: 100%;
+}
+
+#faq .question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid black;
+    width: 100%;
+    padding: 40px 0px;
+}
+
+#faq .answer{
+    display: none;
+    padding-bottom: 40px;
+}
+
+#faq li:hover .answer{
+    display: block;
+}
+
+#faq li:hover i{
+    transform: rotate(180deg);
+}
+
+#faq i{
+    margin-right: 20px;
+}
+
